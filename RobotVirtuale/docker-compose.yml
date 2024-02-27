@@ -1,0 +1,70 @@
+version: '3'
+
+services:
+  mqtt_virtuale:
+    container_name: mqtt_virtuale
+    image: eclipse-mosquitto
+    restart: always
+    volumes:
+    - "./mosquitto/config:/mosquitto/config"
+    - "./mosquitto/log:/mosquitto/log"
+    - "./mosquitto/data:/mosquitto/data"
+    expose:
+    - 1883
+    ports:
+    - 1883:1883 
+    - 9001:9001
+    hostname: mqtt_virtuale
+
+  sense_virtuale:
+    image: app/sense_image
+    container_name: sense_virtuale
+    hostname: sense_virtuale
+    ports:
+      - "8080:8080"
+    expose:
+      - 8080
+    environment:
+      - TZ=Europe/Rome
+    depends_on:
+      - mqtt_virtuale
+      - contr_virtuale
+      - action_virtuale
+
+  perc_virtuale:
+    image: app/perc_image
+    container_name: perc_virtuale
+    hostname: perc_virtuale
+    ports:
+      - "8100:8100"
+    expose:
+      - 8100
+    environment:
+      - TZ=Europe/Rome
+    depends_on:
+      - sense_virtuale      
+      - mqtt_virtuale
+
+  action_virtuale:
+    image: app/action_image
+    container_name: action_virtuale
+    hostname: action_virtuale
+    ports:
+      - "8090:8090"
+    expose:
+      - 8090
+    environment:
+      - TZ=Europe/Rome
+    depends_on:
+      - mqtt_virtuale
+
+  contr_virtuale:
+    image: app/contr_image
+    container_name: contr_virtuale
+    hostname: contr_virtuale
+    ports:
+      - "8110:8110"
+    expose:
+      - 8110
+    depends_on:
+      - action_virtuale

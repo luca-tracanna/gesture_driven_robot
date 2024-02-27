@@ -1,0 +1,369 @@
+1708447829: mosquitto version 2.0.18 starting
+1708447829: Config loaded from /mosquitto/config/mosquitto.conf.
+1708447829: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708447829: Opening ipv4 listen socket on port 1883.
+1708447829: Opening ipv6 listen socket on port 1883.
+1708447829: mosquitto version 2.0.18 running
+1708447829: New connection from 172.20.0.3:34687 on port 1883.
+1708447829: New client connected from 172.20.0.3:34687 as perc_module (p2, c1, k60, u'perc_module').
+1708447829: New connection from 172.20.0.1:45976 on port 1883.
+1708447829: New client connected from 172.20.0.1:45976 as publisher (p2, c1, k60, u'publisher').
+1708447829: New connection from 172.20.0.4:49947 on port 1883.
+1708447829: New client connected from 172.20.0.4:49947 as contr_module (p2, c1, k60, u'contr_module').
+1708447847: New connection from 172.20.0.1:43374 on port 1883.
+1708447847: New client connected from 172.20.0.1:43374 as action_module (p2, c1, k20, u'action_module').
+1708447879: New connection from 172.20.0.1:53706 on port 1883.
+1708447879: New client connected from 172.20.0.1:53706 as sense_module (p2, c1, k60, u'sense_module').
+1708447918: Client sense_module closed its connection.
+1708447989: New connection from 172.20.0.1:38804 on port 1883.
+1708447989: New client connected from 172.20.0.1:38804 as sense_module (p2, c1, k60, u'sense_module').
+1708448067: Client sense_module closed its connection.
+1708448076: New connection from 172.20.0.1:59872 on port 1883.
+1708448076: New client connected from 172.20.0.1:59872 as sense_module (p2, c1, k60, u'sense_module').
+1708448154: Client sense_module closed its connection.
+1708448157: New connection from 172.20.0.1:36762 on port 1883.
+1708448157: New client connected from 172.20.0.1:36762 as sense_module (p2, c1, k60, u'sense_module').
+1708448204: Client sense_module closed its connection.
+1708448211: New connection from 172.20.0.1:40370 on port 1883.
+1708448211: New client connected from 172.20.0.1:40370 as sense_module (p2, c1, k60, u'sense_module').
+1708448284: Client sense_module closed its connection.
+1708448288: New connection from 172.20.0.1:59298 on port 1883.
+1708448288: New client connected from 172.20.0.1:59298 as sense_module (p2, c1, k60, u'sense_module').
+1708448452: Client sense_module closed its connection.
+1708448468: New connection from 172.20.0.1:44004 on port 1883.
+1708448468: New client connected from 172.20.0.1:44004 as sense_module (p2, c1, k60, u'sense_module').
+1708448477: Client contr_module closed its connection.
+1708448572: Client perc_module closed its connection.
+1708448573: mosquitto version 2.0.18 terminating
+1708448573: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708448589: mosquitto version 2.0.18 starting
+1708448589: Config loaded from /mosquitto/config/mosquitto.conf.
+1708448589: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708448589: Opening ipv4 listen socket on port 1883.
+1708448589: Opening ipv6 listen socket on port 1883.
+1708448589: mosquitto version 2.0.18 running
+1708448589: New connection from 172.21.0.1:48660 on port 1883.
+1708448589: New client connected from 172.21.0.1:48660 as publisher (p2, c1, k60, u'publisher').
+1708448589: New connection from 172.21.0.3:45033 on port 1883.
+1708448589: New client connected from 172.21.0.3:45033 as perc_module (p2, c1, k60, u'perc_module').
+1708448589: New connection from 172.21.0.4:41305 on port 1883.
+1708448589: New client connected from 172.21.0.4:41305 as contr_module (p2, c1, k60, u'contr_module').
+1708448635: New connection from 172.21.0.1:34270 on port 1883.
+1708448635: New client connected from 172.21.0.1:34270 as sense_module (p2, c1, k60, u'sense_module').
+1708448645: New connection from 172.21.0.1:33080 on port 1883.
+1708448645: New client connected from 172.21.0.1:33080 as action_module (p2, c1, k20, u'action_module').
+1708449008: Client action_module has exceeded timeout, disconnecting.
+1708449062: Client sense_module has exceeded timeout, disconnecting.
+1708449314: Client publisher closed its connection.
+1708462782: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708464583: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708466384: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708468185: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708505318: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708508584: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708512618: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708514419: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708516220: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708525266: mosquitto version 2.0.18 starting
+1708525266: Config loaded from /mosquitto/config/mosquitto.conf.
+1708525266: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708525266: Opening ipv4 listen socket on port 1883.
+1708525266: Opening ipv6 listen socket on port 1883.
+1708525266: mosquitto version 2.0.18 running
+1708525546: New connection from 172.21.0.1:58934 on port 1883.
+1708525546: New client connected from 172.21.0.1:58934 as publisher (p2, c1, k60, u'publisher').
+1708525571: Client publisher closed its connection.
+1708525791: New connection from 172.21.0.1:36654 on port 1883.
+1708525791: New client connected from 172.21.0.1:36654 as publisher (p2, c1, k60, u'publisher').
+1708525874: Client publisher closed its connection.
+1708525883: New connection from 172.21.0.1:38278 on port 1883.
+1708525883: New client connected from 172.21.0.1:38278 as publisher (p2, c1, k60, u'publisher').
+1708525957: Client publisher closed its connection.
+1708527722: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708529606: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708532201: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708534002: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708689167: mosquitto version 2.0.18 starting
+1708689167: Config loaded from /mosquitto/config/mosquitto.conf.
+1708689167: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708689167: Opening ipv4 listen socket on port 1883.
+1708689167: Opening ipv6 listen socket on port 1883.
+1708689167: mosquitto version 2.0.18 running
+1708689260: mosquitto version 2.0.18 terminating
+1708689260: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708689279: mosquitto version 2.0.18 starting
+1708689279: Config loaded from /mosquitto/config/mosquitto.conf.
+1708689279: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708689279: Opening ipv4 listen socket on port 1883.
+1708689279: Opening ipv6 listen socket on port 1883.
+1708689279: mosquitto version 2.0.18 running
+1708689279: New connection from 172.18.0.3:49341 on port 1883.
+1708689279: New client connected from 172.18.0.3:49341 as perc_module (p2, c1, k60, u'perc_module').
+1708689279: New connection from 172.18.0.4:50823 on port 1883.
+1708689279: New client connected from 172.18.0.4:50823 as contr_module (p2, c1, k60, u'contr_module').
+1708689283: New connection from 172.18.0.1:52540 on port 1883.
+1708689283: New client connected from 172.18.0.1:52540 as publisher (p2, c1, k60, u'publisher').
+1708689309: New connection from 172.18.0.1:37056 on port 1883.
+1708689309: New client connected from 172.18.0.1:37056 as action_module (p2, c1, k20, u'action_module').
+1708689317: New connection from 172.18.0.1:37064 on port 1883.
+1708689317: New client connected from 172.18.0.1:37064 as tag_module (p2, c1, k20, u'tag_module').
+1708689460: Client contr_module closed its connection.
+1708689460: Client perc_module closed its connection.
+1708689461: mosquitto version 2.0.18 terminating
+1708689461: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708689472: mosquitto version 2.0.18 starting
+1708689472: Config loaded from /mosquitto/config/mosquitto.conf.
+1708689472: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708689472: Opening ipv4 listen socket on port 1883.
+1708689472: Opening ipv6 listen socket on port 1883.
+1708689472: mosquitto version 2.0.18 running
+1708689472: New connection from 172.19.0.3:45315 on port 1883.
+1708689472: New client connected from 172.19.0.3:45315 as contr_module (p2, c1, k60, u'contr_module').
+1708689472: New connection from 172.19.0.4:33825 on port 1883.
+1708689472: New client connected from 172.19.0.4:33825 as perc_module (p2, c1, k60, u'perc_module').
+1708689474: New connection from 172.19.0.1:59582 on port 1883.
+1708689474: New client connected from 172.19.0.1:59582 as publisher (p2, c1, k60, u'publisher').
+1708689483: New connection from 172.19.0.1:35532 on port 1883.
+1708689483: New client connected from 172.19.0.1:35532 as tag_module (p2, c1, k20, u'tag_module').
+1708689491: New connection from 172.19.0.1:54760 on port 1883.
+1708689491: New client connected from 172.19.0.1:54760 as action_module (p2, c1, k20, u'action_module').
+1708689744: Client perc_module closed its connection.
+1708689744: Client contr_module closed its connection.
+1708689745: mosquitto version 2.0.18 terminating
+1708689745: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708689750: mosquitto version 2.0.18 starting
+1708689750: Config loaded from /mosquitto/config/mosquitto.conf.
+1708689750: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708689750: Opening ipv4 listen socket on port 1883.
+1708689750: Opening ipv6 listen socket on port 1883.
+1708689750: mosquitto version 2.0.18 running
+1708689751: New connection from 172.20.0.1:32854 on port 1883.
+1708689751: New client connected from 172.20.0.1:32854 as publisher (p2, c1, k60, u'publisher').
+1708689751: New connection from 172.20.0.3:40211 on port 1883.
+1708689751: New client connected from 172.20.0.3:40211 as contr_module (p2, c1, k60, u'contr_module').
+1708689751: New connection from 172.20.0.4:54695 on port 1883.
+1708689751: New client connected from 172.20.0.4:54695 as perc_module (p2, c1, k60, u'perc_module').
+1708689781: New connection from 172.20.0.1:36352 on port 1883.
+1708689781: New client connected from 172.20.0.1:36352 as action_module (p2, c1, k20, u'action_module').
+1708689785: New connection from 172.20.0.1:36366 on port 1883.
+1708689785: New client connected from 172.20.0.1:36366 as tag_module (p2, c1, k20, u'tag_module').
+1708689809: Client contr_module closed its connection.
+1708689809: Client perc_module closed its connection.
+1708689810: mosquitto version 2.0.18 terminating
+1708689810: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708689850: mosquitto version 2.0.18 starting
+1708689850: Config loaded from /mosquitto/config/mosquitto.conf.
+1708689850: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708689850: Opening ipv4 listen socket on port 1883.
+1708689850: Opening ipv6 listen socket on port 1883.
+1708689850: mosquitto version 2.0.18 running
+1708689850: New connection from 172.21.0.3:48529 on port 1883.
+1708689850: New client connected from 172.21.0.3:48529 as contr_module (p2, c1, k60, u'contr_module').
+1708689850: New connection from 172.21.0.4:48773 on port 1883.
+1708689850: New client connected from 172.21.0.4:48773 as perc_module (p2, c1, k60, u'perc_module').
+1708689853: New connection from 172.21.0.1:38244 on port 1883.
+1708689853: New client connected from 172.21.0.1:38244 as publisher (p2, c1, k60, u'publisher').
+1708689858: New connection from 172.21.0.1:32998 on port 1883.
+1708689859: New client connected from 172.21.0.1:32998 as tag_module (p2, c1, k20, u'tag_module').
+1708689861: New connection from 172.21.0.1:33014 on port 1883.
+1708689861: New client connected from 172.21.0.1:33014 as action_module (p2, c1, k20, u'action_module').
+1708690133: Client perc_module closed its connection.
+1708690133: Client contr_module closed its connection.
+1708690147: Client tag_module disconnected.
+1708690150: Client action_module closed its connection.
+1708690155: New connection from 172.21.0.1:33222 on port 1883.
+1708690155: New client connected from 172.21.0.1:33222 as action_module (p2, c1, k20, u'action_module').
+1708690158: New connection from 172.21.0.1:33226 on port 1883.
+1708690158: New client connected from 172.21.0.1:33226 as tag_module (p2, c1, k20, u'tag_module').
+1708690188: mosquitto version 2.0.18 terminating
+1708690188: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708690199: mosquitto version 2.0.18 starting
+1708690199: Config loaded from /mosquitto/config/mosquitto.conf.
+1708690199: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708690199: Opening ipv4 listen socket on port 1883.
+1708690199: Opening ipv6 listen socket on port 1883.
+1708690199: mosquitto version 2.0.18 running
+1708690200: New connection from 172.22.0.3:48909 on port 1883.
+1708690200: New client connected from 172.22.0.3:48909 as contr_module (p2, c1, k60, u'contr_module').
+1708690200: New connection from 172.22.0.4:57367 on port 1883.
+1708690200: New client connected from 172.22.0.4:57367 as perc_module (p2, c1, k60, u'perc_module').
+1708690200: New connection from 172.22.0.1:41430 on port 1883.
+1708690200: New client connected from 172.22.0.1:41430 as tag_module (p2, c1, k20, u'tag_module').
+1708690202: New connection from 172.22.0.1:41444 on port 1883.
+1708690202: New client connected from 172.22.0.1:41444 as publisher (p2, c1, k60, u'publisher').
+1708690204: New connection from 172.22.0.1:41446 on port 1883.
+1708690204: New client connected from 172.22.0.1:41446 as action_module (p2, c1, k20, u'action_module').
+1708690377: Client action_module closed its connection.
+1708690378: Client tag_module disconnected.
+1708690416: Client publisher closed its connection.
+1708707101: mosquitto version 2.0.18 starting
+1708707101: Config loaded from /mosquitto/config/mosquitto.conf.
+1708707101: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708707101: Opening ipv4 listen socket on port 1883.
+1708707101: Opening ipv6 listen socket on port 1883.
+1708707101: mosquitto version 2.0.18 running
+1708707237: mosquitto version 2.0.18 terminating
+1708707237: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708707248: mosquitto version 2.0.18 starting
+1708707248: Config loaded from /mosquitto/config/mosquitto.conf.
+1708707248: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708707248: Opening ipv4 listen socket on port 1883.
+1708707248: Opening ipv6 listen socket on port 1883.
+1708707248: mosquitto version 2.0.18 running
+1708707249: New connection from 172.18.0.3:53123 on port 1883.
+1708707249: New client connected from 172.18.0.3:53123 as contr_module (p2, c1, k60, u'contr_module').
+1708707249: New connection from 172.18.0.4:54073 on port 1883.
+1708707249: New client connected from 172.18.0.4:54073 as perc_module (p2, c1, k60, u'perc_module').
+1708707249: New connection from 172.18.0.1:57700 on port 1883.
+1708707249: New client connected from 172.18.0.1:57700 as publisher (p2, c1, k60, u'publisher').
+1708707477: New connection from 172.18.0.1:53826 on port 1883.
+1708707477: New client connected from 172.18.0.1:53826 as sense_module (p2, c1, k60, u'sense_module').
+1708707496: New connection from 172.18.0.1:40148 on port 1883.
+1708707497: New client connected from 172.18.0.1:40148 as action_module (p2, c1, k20, u'action_module').
+1708707501: New connection from 172.18.0.1:36686 on port 1883.
+1708707501: New client connected from 172.18.0.1:36686 as tag_module (p2, c1, k20, u'tag_module').
+1708707921: Client tag_module disconnected.
+1708707948: Client action_module closed its connection.
+1708707957: New connection from 172.18.0.1:51942 on port 1883.
+1708707957: New client connected from 172.18.0.1:51942 as tag_module (p2, c1, k20, u'tag_module').
+1708708077: Client tag_module disconnected.
+1708708090: Client sense_module closed its connection.
+1708708541: New connection from 172.18.0.1:35076 on port 1883.
+1708708541: New client connected from 172.18.0.1:35076 as tag_module (p2, c1, k20, u'tag_module').
+1708708559: Client tag_module disconnected.
+1708708709: New connection from 172.18.0.1:45072 on port 1883.
+1708708709: New client connected from 172.18.0.1:45072 as tag_module (p2, c1, k20, u'tag_module').
+1708708903: Client tag_module disconnected.
+1708708908: New connection from 172.18.0.1:44176 on port 1883.
+1708708908: New client connected from 172.18.0.1:44176 as tag_module (p2, c1, k20, u'tag_module').
+1708709049: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708709219: Client tag_module disconnected.
+1708709753: New connection from 172.18.0.1:58792 on port 1883.
+1708709753: New client connected from 172.18.0.1:58792 as tag_module (p2, c1, k20, u'tag_module').
+1708709864: Client tag_module disconnected.
+1708710115: New connection from 172.18.0.1:55650 on port 1883.
+1708710115: New client connected from 172.18.0.1:55650 as tag_module (p2, c1, k20, u'tag_module').
+1708710158: Client tag_module disconnected.
+1708710324: New connection from 172.18.0.1:38924 on port 1883.
+1708710324: New client connected from 172.18.0.1:38924 as tag_module (p2, c1, k20, u'tag_module').
+1708710428: Client tag_module disconnected.
+1708710702: New connection from 172.18.0.1:32904 on port 1883.
+1708710702: New client connected from 172.18.0.1:32904 as tag_module (p2, c1, k20, u'tag_module').
+1708710763: Client tag_module disconnected.
+1708710850: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708710877: New connection from 172.18.0.1:46714 on port 1883.
+1708710877: New client connected from 172.18.0.1:46714 as tag_module (p2, c1, k20, u'tag_module').
+1708710893: Client tag_module disconnected.
+1708711112: New connection from 172.18.0.1:60932 on port 1883.
+1708711112: New client connected from 172.18.0.1:60932 as tag_module (p2, c1, k20, u'tag_module').
+1708711121: Client tag_module disconnected.
+1708711313: New connection from 172.18.0.1:36066 on port 1883.
+1708711313: New client connected from 172.18.0.1:36066 as tag_module (p2, c1, k20, u'tag_module').
+1708711323: Client tag_module disconnected.
+1708711466: Client publisher closed its connection.
+1708711480: Client perc_module closed its connection.
+1708711480: Client contr_module closed its connection.
+1708964359: mosquitto version 2.0.18 starting
+1708964359: Config loaded from /mosquitto/config/mosquitto.conf.
+1708964359: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708964359: Opening ipv4 listen socket on port 1883.
+1708964359: Opening ipv6 listen socket on port 1883.
+1708964359: mosquitto version 2.0.18 running
+1708965790: mosquitto version 2.0.18 terminating
+1708965790: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708965825: mosquitto version 2.0.18 starting
+1708965825: Config loaded from /mosquitto/config/mosquitto.conf.
+1708965825: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708965825: Opening ipv4 listen socket on port 1883.
+1708965825: Opening ipv6 listen socket on port 1883.
+1708965825: mosquitto version 2.0.18 running
+1708965825: New connection from 172.18.0.1:34568 on port 1883.
+1708965825: New client connected from 172.18.0.1:34568 as publisher (p2, c1, k60, u'publisher').
+1708965825: New connection from 172.18.0.3:60051 on port 1883.
+1708965825: New client connected from 172.18.0.3:60051 as contr_module (p2, c1, k60, u'contr_module').
+1708965825: New connection from 172.18.0.4:44607 on port 1883.
+1708965825: New client connected from 172.18.0.4:44607 as perc_module (p2, c1, k60, u'perc_module').
+1708965849: New connection from 172.18.0.1:59816 on port 1883.
+1708965849: New client connected from 172.18.0.1:59816 as action_module (p2, c1, k20, u'action_module').
+1708965853: New connection from 172.18.0.1:51028 on port 1883.
+1708965853: New client connected from 172.18.0.1:51028 as tag_module (p2, c1, k20, u'tag_module').
+1708965890: New connection from 172.18.0.1:33964 on port 1883.
+1708965890: New client connected from 172.18.0.1:33964 as sense_module (p2, c1, k60, u'sense_module').
+1708966962: Client sense_module closed its connection.
+1708967056: Client tag_module disconnected.
+1708967057: Client action_module closed its connection.
+1708967076: Client perc_module closed its connection.
+1708967076: Client contr_module closed its connection.
+1708967076: mosquitto version 2.0.18 terminating
+1708967076: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708967086: mosquitto version 2.0.18 starting
+1708967086: Config loaded from /mosquitto/config/mosquitto.conf.
+1708967086: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708967086: Opening ipv4 listen socket on port 1883.
+1708967086: Opening ipv6 listen socket on port 1883.
+1708967086: mosquitto version 2.0.18 running
+1708967086: New connection from 172.19.0.1:37354 on port 1883.
+1708967086: New client connected from 172.19.0.1:37354 as publisher (p2, c1, k60, u'publisher').
+1708967086: New connection from 172.19.0.3:56319 on port 1883.
+1708967086: New client connected from 172.19.0.3:56319 as perc_module (p2, c1, k60, u'perc_module').
+1708967087: New connection from 172.19.0.4:33249 on port 1883.
+1708967087: New client connected from 172.19.0.4:33249 as contr_module (p2, c1, k60, u'contr_module').
+1708967110: New connection from 172.19.0.1:51832 on port 1883.
+1708967110: New client connected from 172.19.0.1:51832 as sense_module (p2, c1, k60, u'sense_module').
+1708967112: Client sense_module closed its connection.
+1708967118: New connection from 172.19.0.1:38728 on port 1883.
+1708967118: New client connected from 172.19.0.1:38728 as tag_module (p2, c1, k20, u'tag_module').
+1708967120: New connection from 172.19.0.1:38742 on port 1883.
+1708967121: New client connected from 172.19.0.1:38742 as action_module (p2, c1, k20, u'action_module').
+1708967200: Client publisher closed its connection.
+1708967203: Client perc_module closed its connection.
+1708967203: Client contr_module closed its connection.
+1708967203: Client tag_module disconnected.
+1708967204: mosquitto version 2.0.18 terminating
+1708967204: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1708967230: mosquitto version 2.0.18 starting
+1708967230: Config loaded from /mosquitto/config/mosquitto.conf.
+1708967230: Warning: File /mosquitto/config/mosquitto.passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/mosquitto.passwd`.
+1708967230: Opening ipv4 listen socket on port 1883.
+1708967230: Opening ipv6 listen socket on port 1883.
+1708967230: mosquitto version 2.0.18 running
+1708967230: New connection from 172.20.0.1:54970 on port 1883.
+1708967230: New client connected from 172.20.0.1:54970 as publisher (p2, c1, k60, u'publisher').
+1708967230: New connection from 172.20.0.3:42007 on port 1883.
+1708967230: New client connected from 172.20.0.3:42007 as perc_module (p2, c1, k60, u'perc_module').
+1708967230: New connection from 172.20.0.4:49907 on port 1883.
+1708967230: New client connected from 172.20.0.4:49907 as contr_module (p2, c1, k60, u'contr_module').
+1708967237: New connection from 172.20.0.1:36676 on port 1883.
+1708967237: New client connected from 172.20.0.1:36676 as tag_module (p2, c1, k20, u'tag_module').
+1708967240: New connection from 172.20.0.1:36682 on port 1883.
+1708967240: New client connected from 172.20.0.1:36682 as action_module (p2, c1, k20, u'action_module').
+1708967313: Client publisher closed its connection.
+1708967359: Client tag_module disconnected.
+1708967362: Client action_module closed its connection.
+1708967389: New connection from 172.20.0.1:48404 on port 1883.
+1708967389: New client connected from 172.20.0.1:48404 as action_module (p2, c1, k20, u'action_module').
+1708967398: New connection from 172.20.0.1:44660 on port 1883.
+1708967398: New client connected from 172.20.0.1:44660 as tag_module (p2, c1, k20, u'tag_module').
+1708967412: Client action_module closed its connection.
+1708967417: New connection from 172.20.0.1:43560 on port 1883.
+1708967417: New client connected from 172.20.0.1:43560 as action_module (p2, c1, k20, u'action_module').
+1708967437: Client tag_module disconnected.
+1708967441: Client action_module closed its connection.
+1708967718: New connection from 172.20.0.1:39282 on port 1883.
+1708967718: New client connected from 172.20.0.1:39282 as sense_module (p2, c1, k60, u'sense_module').
+1708967739: Client sense_module closed its connection.

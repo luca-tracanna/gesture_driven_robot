@@ -1,0 +1,46 @@
+version: '3'
+
+services:
+  mosquitto:
+    container_name: mosquitto
+    image: eclipse-mosquitto
+    restart: always
+    volumes:
+    - "./mosquitto/config:/mosquitto/config"
+    - "./mosquitto/log:/mosquitto/log"
+    - "./mosquitto/data:/mosquitto/data"
+    expose:
+    - 1883
+    ports:
+    - 1883:1883 
+    - 9001:9001
+    hostname: mosquitto
+
+  contr_fisico:
+    image: app/contr_image
+    container_name: contr_fisico
+    hostname: contr_fisico
+    ports:
+      - "8200:8200"
+    expose:
+      - 8200
+    depends_on:
+      - mosquitto
+
+  perc_fisico:
+    image: app/perc_image
+    container_name: perc_fisico
+    hostname: perc_fisico
+    ports:
+      - "8100:8100"
+    expose:
+      - 8100
+    environment:
+      - TZ=Europe/Rome
+    depends_on:      
+      - mosquitto
+
+  
+      
+
+
