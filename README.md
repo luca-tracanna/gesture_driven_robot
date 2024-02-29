@@ -25,7 +25,7 @@ Since movement is never perfect outside of a simulated environment, we needed so
 
 Such tags are placed all over the surring area and can be used to calculate approximately the robot's heading and position with a small margin of error.
 
-## Hardawre choice
+## Hardware choice
 
 We chose a Kobuki base for our project, a simple two-wheeled robot.
 The base recives comands from a Raspberry Pi, which is also responsable for capturing images from the camera, detecting tags and reading distance data from the sonar.
